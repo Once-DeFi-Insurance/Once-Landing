@@ -1,0 +1,58 @@
+.title {
+  margin-top: 5rem;
+  text-align: center;
+  @media (min-width: 600px) {
+    font-size: 2.5rem;
+    text-align: left;
+  }
+}
+
+.texto {
+  text-align: center;
+  @media (min-width: 600px) {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+}
+
+.nft {
+  height: 100%;
+  margin-right: 3rem;
+  @media (min-width: 600px) {
+    height: 20rem;
+  }
+}
+
+.token {
+  height: 100%;
+  margin-right: 3rem;
+  @media (min-width: 600px) {
+    width: 40rem;
+  }
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  @media (min-width: 600px) {
+    flex-direction: row;
+  }
+}
+
+.swiper {
+  width: 90vw;
+  margin-bottom: 10rem;
+}
+
+.slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.life {
+  width: 10rem;
+}

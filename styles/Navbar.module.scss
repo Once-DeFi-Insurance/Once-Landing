@@ -1,0 +1,25 @@
+.section {
+  height: 80px;
+  background-color: white;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5rem;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.title {
+  margin-left: 1rem;
+  font-family: "Gugi", cursive;
+}
+
+.btnDapp {
+  color: #ffffff;
+  box-shadow: 0 0 4px -1px #7ed957;
+  background-color: #7ed957;
+  padding: 0.3rem 1rem;
+  border-radius: 5px;
+}
